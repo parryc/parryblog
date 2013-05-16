@@ -1,0 +1,6 @@
+permalink: /:title
+
+gekyll:
+    extras:
+        - commits
+        - diffs

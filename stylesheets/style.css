@@ -1,0 +1,73 @@
+aside {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 100%;
+	max-width: 500px;
+}
+
+body,aside {
+	padding: 10px;
+}
+
+.post-excerpt .horiz {
+	width: 50%;
+}
+
+.content {
+	position: absolute;
+	left: 30%;
+	margin-left: 20px;
+	width: 60%;
+}
+
+.date, .date-small {
+	right: 0;
+	bottom: -5px;
+}
+
+.page-title {
+	height: 3em;
+	position: relative;
+}
+
+.post-title,.date,.date-small{
+	font-weight: bold;
+	position: absolute;
+}
+
+.post-title {
+	font-size: 3em;
+	bottom: 6px;
+}
+
+.pull-right {
+	float: right;
+}
+
+#logo {
+	margin: 0 auto;
+	display: block;
+}
+
+@media(min-width: 500px){
+	.date-small {
+		display: none;
+	}
+}
+
+@media(max-width: 980px){
+	.post-title {
+		font-size: 2em;
+		bottom: 0;
+	}
+}
+
+@media(max-width: 500px){
+	.date {
+		display: none;
+	}
+}
+
