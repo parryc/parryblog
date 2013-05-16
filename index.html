@@ -4,36 +4,25 @@ title: Jekyll Base
 ---
 <aside>
   <a href="/"><img src="../images/logo.svg" id="logo"/></a>
-  <h1>{% for cat in site.categories  %}
-      {{ cat[0] }}
-      {% endfor %}
-  </h1>
+  <h2>Categories</h2>
+  {% for cat in site.categories  %}
+  <h4 class="category"><a href="#">{{ cat[0] }}</a></h4>
+  {% endfor %}
+  <h4><a href="/about">About</a></h4>
 </aside>
 <section class="content">
-      {% for post in site.posts %}
-      <div>
-        <div class="page-title">
-          <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-          <span class="pull-right date">{{ post.date | date: "%B %e, %Y" }}</span>
-          <span class="pull-right date-small">{{ post.date | date: "%m/%e/%y" }}</span>
-        </div>
-        <div class="post-excerpt">
-          {{ post.content | split:"<!-- more -->" | first }}<br/>
-        </div>
-      </div>
-      {% endfor %}
-
-      {% for post in site.posts %}
-      <div>
-        <div class="page-title">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </div>
-        <div>
-          {{ post.excerpt }}<br/>
-          {{ post.date | date: "%B %e, %Y" }}
-        </div>
-      </div>
-      {% endfor %}
-    </ul>
+  {% for post in site.posts %}
+  <div class="post">
+    <div class="page-title">
+      <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      <span class="pull-right date">{{ post.date | date: "%B %e, %Y" }}</span>
+      <span class="pull-right date-small">{{ post.date | date: "%m/%e/%y" }}</span>
+    </div>
+    <div class="post-excerpt">
+      {{ post.content | split:"<!-- more -->" | first }}<br/>
+    </div>
+  </div>
+  {% endfor %}
+</ul>
 </section>
 
