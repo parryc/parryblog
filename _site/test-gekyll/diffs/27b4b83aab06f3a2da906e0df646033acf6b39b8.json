@@ -1,1 +1,0 @@
-[{"a_path":"feelin-good.md","b_path":"feelin-good.md","new_file":false,"deleted_file":false,"renamed_file":false,"similarity_index":0,"diff":"--- a/feelin-good.md\n+++ b/feelin-good.md\n@@ -4,3 +4,3 @@ excerpt: Hello world, what's crackin' bacon.\n![test](../images/flowers.jpg)\n[-{{ content | split:\"<!---]{+<!--+} more [--->\" | first }}-]{+-->+}\n#How dyou feel?"}]

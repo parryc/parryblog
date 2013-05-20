@@ -20,21 +20,28 @@ body,aside {
 	padding: 10px;
 }
 
+.categories {
+	margin-top: 5px;
+}
+
 .category-list {
 	width: 75%;
 	margin: 0 auto;
 	margin-bottom: 2%;
 }
 
-aside.category {
-	padding-left: 15px;
-	word-break: break-all;
+.category-post {
+	margin-right: 15px;
+}
+
+.category-post-block {
+	margin-bottom: 25px;
 }
 
 /* Heh... maybe took most of this from Github's keyboard shortcuts. Love the look. */
 .category {
 	display: inline-block;
-	margin: 0;
+	margin-bottom: 5px;
 	padding: 3px 6px;
 	min-width: 10px;
 	text-align: center;
@@ -43,6 +50,7 @@ aside.category {
 	color: rgb(111,176,235);
 	border-radius: 2px;
 	text-shadow: 1px 1px 0 black;
+	word-break: break-all;
 }
 
 .content {
@@ -133,6 +141,9 @@ aside.category {
 		font-size: 2em;
 		bottom: 8px;
 		width: 175px;
+	}
+	.category-post {
+		font-size: 2em;
 	}
 	.post {
 		padding-bottom: 50px;
