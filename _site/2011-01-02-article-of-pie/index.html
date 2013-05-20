@@ -1,34 +1,76 @@
+<!DOCTYPE HTML>
+
 <html>
-<head>
-    <meta charset='utf-8'>
-	<title>2011 01 02 Article Of Pie</title>
-</head>
-<body>
-	<h1>2011 01 02 Article Of Pie</h1>
-	<div>
-		<h2 id='fuccccck'>fuccccck</h2>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Parry Cadwallader" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/typeplate.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/fonts/fonts.css">
+    <title>parryblog | 2011 01 02 Article Of Pie</title>
+  </head>
+  <body>
+    <h1 class="page-title">2011 01 02 Article Of Pie</h1>
+<div class="category-list">
+
+  <a href="/categories/pie" class="category">pie</a>
+
+  <a href="/categories/travel" class="category">travel</a>
+
+  <a href="/categories/gypsies" class="category">gypsies</a>
+
+</div>
+<article>
+    <h2 id='fuccccck'>fuccccck</h2>
 
 <p>why is it not working?</p>
+<br/>
+<br/>
+<p><a id="stats-toggle" href="#stats">Show Stats</a></p>
+<div id="stats">
+	<hr/>
+	<h3>Post Stats</h3>
+	<ul>
+		<li>Post date: <b>13 May 2013</b></li>
+		<li># of revisions: <b>1</b></li>
+	</ul>
+	<h3>Drafts</h3>
+	<table class="commit-table">
+	
+		<tr>
+			<td>13 May 2013</td>
+			<td>WORK DAMMIT</td>
+		</tr>
+	
+	</table>
+	<br/>
+	<div>
+		<p>
+			View all drafts on <a href="http://github.com/parryc/parryblog//2011-01-02-article-of-pie">Github</a>
+		</p>
 	</div>
-	<hr/>
-	<h3>Repo Stats</h3>
-	<ul>
-		<li>Draft created: <b></b></li>
-		<li>Last updated: <b>13 May 2013</b></li>
-		<li># of commits: <b>1</b></li>
-	</ul>
-	<hr/>
-	<h3>Commits</h3>
-	<ul>
-	
-		<li>
-			<div><b>ee4220e2a3d17b44b88a7ec2d149dcdab89315eb</b></div>
-			<div><i>13 May 2013 @ 01:05</i></div>
-			<div>WORK DAMMIT</div>
-		</li>
-	
-	</ul>
-	<hr/>
-	<div>git clone /2011-01-02-article-of-pie.git</div>
-</body>
+</div>
+
+
+</article>
+<a href="/"><img src="../images/logo.svg" id="stamp"/></a>
+
+  </body>
+  <script type="text/javascript">
+  if(window.location.pathname != "/") {
+    postStats = document.getElementById('stats-toggle');
+    postStats.onclick = function() {
+      stats = document.getElementById('stats');
+      if(stats.style.display != 'none' && stats.style.display) {
+        stats.style.display = 'none';
+        postStats.innerHTML = 'Show Stats';
+      } else {
+        stats.style.display = 'block';
+        postStats.innerHTML = 'Hide Stats';
+      }
+    }; 
+  }
+  </script>
+
 </html>

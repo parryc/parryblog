@@ -8,9 +8,25 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/fonts/fonts.css">
-    <title>parryblog -- {{ page.title }}</title>
+    <title>parryblog | {{ page.title }}</title>
   </head>
   <body>
     {{ content }}
   </body>
+  <script type="text/javascript">
+  if(window.location.pathname != "/") {
+    postStats = document.getElementById('stats-toggle');
+    postStats.onclick = function() {
+      stats = document.getElementById('stats');
+      if(stats.style.display != 'none' && stats.style.display) {
+        stats.style.display = 'none';
+        postStats.innerHTML = 'Show Stats';
+      } else {
+        stats.style.display = 'block';
+        postStats.innerHTML = 'Hide Stats';
+      }
+    }; 
+  }
+  </script>
+
 </html>

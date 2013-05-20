@@ -1,3 +1,11 @@
+p a, footer a {
+	color: rgb(111,176,235);
+}
+article {
+	width: 75%;
+	margin: 0 auto;
+}
+
 aside {
 	position: fixed;
 	z-index: 10;
@@ -12,9 +20,29 @@ body,aside {
 	padding: 10px;
 }
 
-.category {
+.category-list {
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+aside.category {
 	padding-left: 15px;
 	word-break: break-all;
+}
+
+/* Heh... maybe took most of this from Github's keyboard shortcuts. Love the look. */
+.category {
+	display: inline-block;
+	margin: 0;
+	padding: 3px 6px;
+	min-width: 10px;
+	text-align: center;
+	font-family: Monaco, "Liberation Mono", Courier, monospace;
+	background: #EEE;
+	color: rgb(111,176,235);
+	border-radius: 2px;
+	text-shadow: 1px 1px 0 black;
 }
 
 .content {
@@ -26,16 +54,16 @@ body,aside {
 
 .date, .date-small {
 	right: 0;
-	bottom: -6px;
+	bottom: 4px;
 }
 
 .page-title {
-	height: 3em;
-	position: relative;
+	width: 75%;
+	margin: 0 auto 1% auto;
 }
 
 .post {
-	margin-bottom: 5%;
+	margin-bottom: 4%;
 }
 
 .post-excerpt .horiz {
@@ -53,16 +81,39 @@ body,aside {
 
 .post-title {
 	font-size: 3em;
-	bottom: 2px;
+	bottom: 14px;
+}
+
+.preview-title {
+	height: 3em;
+	position: relative;
 }
 
 .pull-right {
 	float: right;
 }
 
+.title-small {
+	font-size: 1.5em;
+	margin-bottom: 6%;
+	margin-top: 5%;
+	color: black;
+}
+
 #logo {
 	margin: 0 auto;
 	display: block;
+}
+
+#stamp {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 25px;
+}
+
+#stats {
+	display: none;
 }
 
 @media(min-width: 500px){
@@ -71,11 +122,27 @@ body,aside {
 	}
 }
 
+@media(min-width: 640px){
+	.title-small {
+		display: none;
+	}
+}
+
 @media(max-width: 980px){
 	.post-title {
 		font-size: 2em;
-		bottom: -2px;
-		width: 200px;
+		bottom: 8px;
+		width: 175px;
+	}
+	.post {
+		padding-bottom: 50px;
+		margin-bottom: 0;
+	}
+}
+
+@media(max-width: 640px){
+	.title-large {
+		display: none;
 	}
 }
 

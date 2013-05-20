@@ -1,10 +1,17 @@
 ---
 layout: layout
+categories:
+- pie
+- travel
+- gypsies
 ---
-
-<div class="content">
-  <div id="post">
-    <h1>{{ post.title }}</h1>
-    {{ content }}
-  </div>
+<h1 class="page-title">{{ page.title }}</h1>
+<div class="category-list">
+{% for cat in page.categories %}
+  <a href="/categories/{{ cat }}" class="category">{{ cat }}</a>
+{% endfor %}
 </div>
+<article>
+    {{ content }}
+</article>
+<a href="/"><img src="../images/logo.svg" id="stamp"/></a>

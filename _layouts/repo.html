@@ -1,32 +1,31 @@
-<html>
-<head>
-    <meta charset='utf-8'>
-	<title>{{ page.title }}</title>
-</head>
-<body>
-	<h1>{{ page.title }}</h1>
-	<div>
-		{{ content }}
-	</div>
+---
+layout: post
+---
+{{ content }}
+<br/>
+<br/>
+<p><a id="stats-toggle" href="#stats">Show Stats</a></p>
+<div id="stats">
 	<hr/>
-	<h3>Repo Stats</h3>
+	<h3>Post Stats</h3>
 	<ul>
-		<li>Draft created: <b>{{ page.start_date | date: "%-d %B %Y" }}</b></li>
-		<li>Last updated: <b>{{ page.date | date: "%-d %B %Y" }}</b></li>
-		<li># of commits: <b>{{ page.commits.size }}</b></li>
+		<li>Post date: <b>{{ page.date | date: "%-d %B %Y" }}</b></li>
+		<li># of revisions: <b>{{ page.commits.size }}</b></li>
 	</ul>
-	<hr/>
-	<h3>Commits</h3>
-	<ul>
+	<h3>Drafts</h3>
+	<table class="commit-table">
 	{% for commit in page.commits %}
-		<li>
-			<div><b>{{ commit.id }}</b></div>
-			<div><i>{{ commit.committed_date | date: "%-d %B %Y @ %H:%m" }}</i></div>
-			<div>{{ commit.message }}</div>
-		</li>
+		<tr>
+			<td>{{ commit.committed_date | date: "%-d %B %Y" }}</td>
+			<td>{{ commit.message }}</td>
+		</tr>
 	{% endfor %}
-	</ul>
-	<hr/>
-	<div>git clone {{ site.url }}{{ page.id }}.git</div>
-</body>
-</html>
+	</table>
+	<br/>
+	<div>
+		<p>
+			View all drafts on <a href="http://github.com/parryc/parryblog/{{ page.id }}">Github</a>
+		</p>
+	</div>
+</div>
+

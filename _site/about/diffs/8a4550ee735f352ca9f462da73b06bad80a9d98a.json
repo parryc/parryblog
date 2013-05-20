@@ -1,0 +1,1 @@
+[{"a_path":"about.md","b_path":"about.md","new_file":false,"deleted_file":false,"renamed_file":false,"similarity_index":0,"diff":"--- a/about.md\n+++ b/about.md\n@@ -1 +1,4 @@\n{+---+}\n{+date: 1991-06-20+}\n{+---+}\nTypeset in <a href=\"http://www.hvdfonts.com/\">Brandon Grotesque</a>"}]

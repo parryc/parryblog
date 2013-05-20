@@ -8,15 +8,39 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/fonts/fonts.css">
-    <title>parryblog -- Test Post</title>
+    <title>parryblog | Test Post</title>
   </head>
   <body>
-    <div class="content">
-  <div id="post">
-    <h1></h1>
-    <p>This is a test post writen in markdown. To learn more about markdown check out the <a href='http://daringfireball.net/projects/markdown/'>documentation</a> on <a href='http://daringfireball.net/'>Daring Fireball</a>.</p>
-  </div>
+    <h1 class="page-title">Test Post</h1>
+<div class="category-list">
+
+  <a href="/categories/pie" class="category">pie</a>
+
+  <a href="/categories/travel" class="category">travel</a>
+
+  <a href="/categories/gypsies" class="category">gypsies</a>
+
 </div>
+<article>
+    <p>This is a test post writen in markdown. To learn more about markdown check out the <a href='http://daringfireball.net/projects/markdown/'>documentation</a> on <a href='http://daringfireball.net/'>Daring Fireball</a>.</p>
+</article>
+<a href="/"><img src="../images/logo.svg" id="stamp"/></a>
 
   </body>
+  <script type="text/javascript">
+  if(window.location.pathname != "/") {
+    postStats = document.getElementById('stats-toggle');
+    postStats.onclick = function() {
+      stats = document.getElementById('stats');
+      if(stats.style.display != 'none' && stats.style.display) {
+        stats.style.display = 'none';
+        postStats.innerHTML = 'Show Stats';
+      } else {
+        stats.style.display = 'block';
+        postStats.innerHTML = 'Hide Stats';
+      }
+    }; 
+  }
+  </script>
+
 </html>
