@@ -13,7 +13,7 @@ This is my last chance to discuss sex with the wider world and I want to use thi
 <!-- more -->
 Everyone says I love you, but I know love is just a phantom menace, coming down from a cold mountain to where the heart is. I don't love you, love is for the other women. I just really, really, really want to have sex with you. And frankly, at this time in my life, I just don't want any other borin' girl. I would even fly through Newark, a weed in the Garden State, to be with you. If that's not dedication to getting closer, I don't know what is. If we hit it off, I'll take you first class through India on the Darjeeling Limited, through the lands of my birth. I'll show you the magical emporiums of Uttar Pradesh, where you can find the only zoo in this land with a black swan! If you say no and shame me, don't worry, I'm mature. I won't take out revenge or start up a vendetta. I know there are other beautiful girls waiting to hear je t'aime. 
 
-Natalie, take a chance on me, no strings attached. I won't let anyone else know that you assented to it — I'd hate for you to have all of the clones, copying my letter, attacking you with requests. Your highness, I am but a lowly knight, waiting for your smile. Let me know and I am but yours.
+Natalie, take a chance on me, no strings attached. I won't let anyone else know that you assented to it - I'd hate for you to have all of the clones, copying my letter, attacking you with requests. Your highness, I am but a lowly knight, waiting for your smile. Let me know and I am but yours.
 <br/><br/>
 Sincerely,
 <br/><br/>
