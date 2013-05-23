@@ -27,3 +27,5 @@ To my parents, for letting me abandon my filial duties, travel to exotic locales
 It's not about the things you can check off a list or who you end up at the end, but  about the stories you collect on the way.  Never stop your own quest for the perfect tale. Seniors, enjoy these last few weeks. You've earned them, so don't forget to make 'em sexy. Everyone else, you should probably be incredibly stressed and not see the forest for the trees. Also, that problem set you're working on will totally determine your future and whether anyone will ever love you. 
 
 Now, my friends, I must bid you all adieu. I'm off to go find someone to have sex with me during the last lecture of PSYCH 1001.
+<br/><br/><br/>
+*Written under the pseudonym Jimothy Singh for the Cornell Daily Sun*
