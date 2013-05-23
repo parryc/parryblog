@@ -8,7 +8,7 @@ title: home
   {% for cat in site.categories  %}
     <a href="/categories/{{ cat[0] }}" class="category">{{ cat[0] }}</a>
   {% endfor %}
-  <h4 style="position: absolute; bottom: 0"><a href="/about">About</a></h4>
+  <h4 style="position: absolute; bottom: 15px"><a href="/about">About</a></h4>
 </aside>
 <section class="content">
   {% for post in site.posts %}
@@ -19,7 +19,10 @@ title: home
       <span class="pull-right date-small">{{ post.date | date: "%m/%e/%y" }}</span>
     </div>
     <div class="post-excerpt">
-      {{ post.content | split:"<!-- more -->" | first }}<br/>
+      <a href="{{ post.url }}" class="excerpt-link">
+        {{ post.content | split:"<!-- more -->" | first }}
+      </a>
+      <br/>
     </div>
   </div>
   {% endfor %}

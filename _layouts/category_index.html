@@ -6,6 +6,8 @@ layout: post
 		<span class="category-post gamma"><a href="{{ post.url }}">{{ post.title }}</a></span>
 	    <small>{{ post.date | date_to_html_string }}</small>
 	    <div class="categories">{{ post.categories | category_links }}</div>
-	    {{ post.excerpt }}
+	    <a href="{{ post.url }}" class="excerpt-link">
+	    	{{ post.excerpt }}
+	    </a>
 	</div>
 {% endfor %}
