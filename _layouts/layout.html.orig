@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Parry Cadwallader" />
+<<<<<<< HEAD
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;">
+=======
+    <meta name="viewport" content="width=device-width; initial-scale=1, maximum-scale=1" user-scalable="no">
+>>>>>>> 489b335f28b6a2d39d5e260a26622b8a7823a1b0
+    <link rel="stylesheet" type="text/css" href="/stylesheets/typeplate.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/fonts/fonts.css">
+    <title>parryblog | {{ page.title }}</title>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+  <script type="text/javascript">
+  if(window.location.pathname.split('/').length == 3) {
+    postStats = document.getElementById('stats-toggle');
+    postStats.onclick = function() {
+      stats = document.getElementById('stats');
+      if(stats.style.display != 'none' && stats.style.display) {
+        stats.style.display = 'none';
+        postStats.innerHTML = 'Show Stats';
+      } else {
+        stats.style.display = 'block';
+        postStats.innerHTML = 'Hide Stats';
+      }
+    }; 
+  }
+  </script>
+
+</html>
