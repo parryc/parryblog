@@ -3,7 +3,6 @@ layout: post
 title: One Hundred and Sexty-One Ideas
 categories: 
 - humor
-- cornell
 ---
 
 In the spirit of AH-I’M-ALMOST-GRADUATING-AND-NOT-READY-TO-BE-A-REAL-PERSON nostalgia, I thought it’d be a good time to share some of the sexual highlights of my time at Cornell. Originally, when I set out to be the sex artist that I am today, I thought it would be sufficient to do everything on the 161 list and then add “and then have sex afterwards” to each one of them.  Now, this isn’t that bad of an idea and for most, it’s probably sufficient. For the few who want to herald the new wave of sexual artistry though — the Picassos of positions, the Rembrandts of romance and the Mondrians of making love — that just simply isn’t enough. It’s for you special few that I write this column, based on my own search for higher meaning in random sex at Cornell.

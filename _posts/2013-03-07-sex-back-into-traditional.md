@@ -3,7 +3,6 @@ layout: post
 title: Putting the Sex Back Into Traditional
 categories: 
 - humor
-- cornell
 ---
 It is time to return to our sexual roots. We need to throw out the avant garde sex.  You and your partner should no longer sit fully clothed in a darkened room emailing sex terms to each other. Stop making Tumblrs filled with .gifs of sex poses you want to do and sending them to your sex friend as foreplay (but please send links to me).  Ramp up the sexual touching from eye-fucking to I’m-fucking. 
 

@@ -2,7 +2,6 @@
 layout: post
 categories: 
 - humor
-- cornell
 title: Dear Ms. Portman
 date: 2013-04-25
 ---

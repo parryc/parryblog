@@ -3,7 +3,6 @@ layout: post
 title: Sex Between the Lines
 categories:
 - humor
-- cornell
 ---
 Spring break is over, and it’s time to start gearing up for midterms. You’re stuck in the library studying, and a fun night looks further away than an A in orgo. Don’t worry, I’ve got your back. This week, I’m here to tell you how to woo the library hottie, that ravishing reference book reader, the one you put your heart on reserve for. I may be stating the obvious when I say that the library is not normally conducive to picking up a quick fling, but after many trials and too many tribulations, I have hit upon a set of reasonably sure-fire tips for going from checking out to checking out. 
 <!-- more -->

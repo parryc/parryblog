@@ -3,7 +3,6 @@ layout: post
 title: Planes, Trains, and Sex on Wheels
 categories: 
 - humor
-- cornell
 ---
 There is a problem with today’s sexually active youth. We aren’t adventurous enough. I don’t mean this in the Kama Sutra, let's-try -having-sex-while-upside-down-balancing -on-one-hand sort of adventurous, but rather the let’s have sex on top of a moving train sort of adventurous.
 
