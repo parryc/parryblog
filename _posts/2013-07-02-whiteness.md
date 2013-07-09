@@ -12,7 +12,7 @@ I am finally a foreigner again. I am back in the land of stares, discreet pictur
 
 But best of all, I am back where a chubby little Chinese boy can come up to you, stick out his hand and say in impeccable British English "hello, how are you?" and not expect anything but a mumbled reply he'll never understand. 
 
-<! - -  more - - >
+<!--  more -->
 
 Yes, it's true, at some point in my travels to China I was no longer was a foreigner. I could bare the overwhelming smell of urine in Chinese men's dorms and I could fall asleep standing up during rush hour on the subway. I had lost that aura of having showered within 24 hours. I had sinitified. 
 
