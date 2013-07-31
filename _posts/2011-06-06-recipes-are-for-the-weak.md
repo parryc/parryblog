@@ -14,13 +14,13 @@ If you guessed the last one…well you cheated. I know you did.
 See this is an American Dragon Boat:
 
 <figure>
-	<img src="../images/dragonboat-american.jpg" />
+	<img src="/images/dragonboat-american.jpg" />
 </figure>
 
 This is Chinese:
 
 <figure>
-	<img src="../images/dragonboat-china.jpg" />
+	<img src="/images/dragonboat-china.jpg" />
 </figure>
 
 Do you see a difference? 
@@ -34,21 +34,21 @@ But as I was saying: food.  The fact that I'm alive and writing this means…wel
 All of this coming soon to a table near you!  Or maybe your table, if you're (un)lucky!
 
 <figure>
-	<img src="../images/eggs-and-tomatoes.jpg"/>
+	<img src="/images/eggs-and-tomatoes.jpg"/>
 	<figcaption>
 		Eggs and tomatoes
 	</figcaption>
 </figure>
 
 <figure>
-	<img src="../images/mushrooms.jpg"/>
+	<img src="/images/mushrooms.jpg"/>
 	<figcaption>
 		Mushrooms and Pikachu!
 	</figcaption>
 </figure>
 
 <figure>
-	<img src="../images/yuxiang-qiezi.jpg"/>
+	<img src="/images/yuxiang-qiezi.jpg"/>
 	<figcaption>
 		Yuxiang Qiezi (鱼香茄子), the best eggplant dish in China.
 	</figcaption>
