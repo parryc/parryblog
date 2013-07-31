@@ -11,9 +11,7 @@ categories:
 I am finally a foreigner again. I am back in the land of stares, discreet pictures, and lewd cat calls that result in me shaking peoples' hands without a single exchange of words. 
 
 But best of all, I am back where a chubby little Chinese boy can come up to you, stick out his hand and say in impeccable British English "hello, how are you?" and not expect anything but a mumbled reply he'll never understand. 
-
-<!--  more -->
-
+<!-- more -->
 Yes, it's true, at some point in my travels to China I was no longer was a foreigner. I could bare the overwhelming smell of urine in Chinese men's dorms and I could fall asleep standing up during rush hour on the subway. I had lost that aura of having showered within 24 hours. I had sinitified. 
 
 But no longer. I am now the pastiest person on the street by at least 6 or 7 paint samples (on that note Sunburnt White Boy would look great on your wall) and the world is my oyster... if said oyster stared back at you or took pictures of you while you were sleeping on the plane. That's right girl who sat next to me on the plane, I can recognize my nose even when you scroll reaaaallly fast to show me another picture. 
