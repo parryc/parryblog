@@ -16,8 +16,8 @@ title: home
     <div class="preview-title">
       <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
       <br/>
-      <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
-      <span class="date-small">{{ post.date | date: "%m/%e/%y" }}</span>
+      <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
+      <div class="date-small">{{ post.date | date: "%m/%d/%y" }}</div>
     </div>
     <div class="post-excerpt">
       <a href="{{ post.url }}" class="excerpt-link">
