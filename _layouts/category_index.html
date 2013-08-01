@@ -7,7 +7,7 @@ layout: post
 	    <small>{{ post.date | date_to_html_string }}</small>
 	    <div class="categories">{{ post.categories | category_links }}</div>
 	    <a href="{{ post.url }}" class="excerpt-link">
-	    	{{ post.excerpt }}
+	    	{{ post.content | split:"<!-- more -->" | first | markdownify }}
 	    </a>
 	</div>
 {% endfor %}

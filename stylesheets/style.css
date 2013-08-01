@@ -17,7 +17,7 @@ aside {
 }
 
 body,aside {
-	padding: 15px;
+	padding: 15px 15px 15px 10px;
 }
 
 .categories {
@@ -61,9 +61,10 @@ body,aside {
 }
 
 .date, .date-small {
-	right: 0;
-	bottom: 4px;
+	font-weight: bold;
+	margin-top: 3px;
 }
+
 
 .excerpt-link {
 	color: inherit;
@@ -82,6 +83,10 @@ body,aside {
 	margin-bottom: 4%;
 }
 
+.post-excerpt {
+	padding-top: 15px;
+}
+
 .post-excerpt .horiz {
 	width: 50%;
 }
@@ -90,20 +95,11 @@ body,aside {
 	height: 50%;
 }
 
-.post-title,.date,.date-small{
-	font-weight: bold;
-	position: absolute;
-}
-
 .post-title {
 	font-size: 3em;
+	font-weight: bold;
 	line-height: 1em;
 	/*bottom: 14px;*/
-}
-
-.preview-title {
-	height: 3em;
-	position: relative;
 }
 
 .pull-right {
@@ -163,6 +159,10 @@ body,aside {
 @media(max-width: 640px){
 	.title-large {
 		display: none;
+	}
+	blockquote {
+		margin-right: 0;
+		margin-left: -15px;
 	}
 }
 
