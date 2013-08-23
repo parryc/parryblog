@@ -1,3 +1,8 @@
+body {
+	font-size: 22px;
+	line-height: 1.4;
+ 	font-family: "brandon_grotesqueregular","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 p a, footer a {
 	color: rgb(111,176,235);
 }
