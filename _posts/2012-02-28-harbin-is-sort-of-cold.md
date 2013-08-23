@@ -3,7 +3,7 @@ layout: post
 categories: 
 - travel
 - china
-title: Harbin: Or how I learned to stop worrying and love the cold even more than I already do
+title: Harbin - Or how I learned to stop worrying and love the cold even more than I already do
 date: 2012-02-28
 ---
 I love the cold. I collect it, store it in bottles, and consume it as raw energy. I don't need things like peanut butter, chocolate, or working toilets to remind me of home, I just need biting wind and frost-bitten extremities. I'm Minnesotan, what can I say? Gotta live up to the name.
@@ -41,7 +41,7 @@ Before I go put on another layer (so as not to cause the aunts at the reception 
 <figure>
 	<img src="/images/harbin-adorable.jpg" />
 	<figcaption>
-		Winters in China are more adorable than *LITERALLY ANYWHERE ELSE*
+		Winters in China are more adorable than LITERALLY ANYWHERE ELSE
 	</figcaption>
 </figure>
 <figure>

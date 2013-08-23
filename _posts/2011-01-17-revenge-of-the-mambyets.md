@@ -4,7 +4,7 @@ categories:
 - travel
 - kazakhstan
 - the netherlands
-title: Kazakhstan 2: Revenge of the Mambyets
+title: Kazakhstan 2 - Revenge of the Mambyets
 date: 2011-01-17
 ---
 Hello reader of my blog! Yes you! It's that time of the year again: Parry goes traveling! However, as this was over winter break, it was only Amsterdam for one day and then Almaty for a week. (Hmm. AA. I wonder if that's indicative of anything......no, of course not.)

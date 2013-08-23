@@ -15,8 +15,10 @@ And horse sausages (delicious).
 
 Ok, entry over.
 
-Seriously, though, Kazakhstan is an awesome place. Located within spitting distance of the Tian Shan Mountains, the scenery and nature in this place is quite extraordinary. While still hot, maybe 80-90 degrees, it's not nearly as humid as Shanghai. This means that your clothing will actually dry. I like this about a city. I've spent the last few days hiking around the mountains surrounding Almaty and hanging out with Ilyas, Nuraziz, and their friends. There was one night where we were out quite late and decided to just go chill on a mountain and watch the sunrise. When I mean mountain, I really mean mountain, we were 2500m above sea level? We were [here](http://en.wikipedia.org/wiki/Chimbulak)
+Seriously, though, Kazakhstan is an awesome place. Located within spitting distance of the Tian Shan Mountains, the scenery and nature in this place is quite extraordinary. While still hot, maybe 80-90 degrees, it's not nearly as humid as Shanghai. This means that your clothing will actually dry. I like this about a city. I've spent the last few days hiking around the mountains surrounding Almaty and hanging out with Ilyas, Nuraziz, and their friends. There was one night where we were out quite late and decided to just go chill on a mountain and watch the sunrise. When I mean mountain, I really mean mountain, we were 2500m above sea level? We were [here](http://en.wikipedia.org/wiki/Chimbulak).
+
 <!-- more -->
+
 Besides mountains, I've also been gorging myself on Kazakh food. So good. Horse sausages, lamb kabobs, chicken stuffed bread, stuffed peppers - nom nom nom nom nom. I'm going to come home like 20 pounds heavier. Oh jeez...
 
 But yeah, yesterday aside, in which I came home at 9am after a night of karaoke, I've eating, hiking, hanging, and sleeping. What better way to spend a week of summer?

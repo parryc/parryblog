@@ -9,13 +9,18 @@ date: 2011-07-06
 Because I am a stage and everything's a play - or some quote like that - this post is presented in Vingette-o-vision. Also known as me having been much too lazy to pack a bunch of unrelated events from the past month into something coherent and connected. Here goes.
 
 ###Act 1. Scene 1. Happy Birthday to me, la la la~~~###
-
 *Parry enters the scene as a 19 year old*
+<br/>
 *Parry bows*
+<br/>
 *Parry does a little tap routine*
+<br/>
 *Parry swallows a sword*
+<br/>
 *Parry turns 20*
-*rapturous applause*
+<br/>
+**rapturous applause**
+<br/>
 *Parry leaves*
 <!-- more -->
 ###Act 1. Scene 2. Horror.###

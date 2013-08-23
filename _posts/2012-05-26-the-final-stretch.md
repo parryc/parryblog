@@ -34,13 +34,17 @@ Unfortunately, I don't have any pictures of all these people, but I will leave y
 <figure>
 	<img src="/images/harbin-final2.jpg" />
 	<figcaption>
-		Birds in cages - another past time I hope to adopt when I become a 70 year old Chinese man. (Anyone else thinking [Hardboiled with Chow Yun Fat?](http://www.youtube.com/watch?v=3wYCh5nxyCI))
+		<p>
+		Birds in cages - another past time I hope to adopt when I become a 70 year old Chinese man. (Anyone else thinking <a href="http://www.youtube.com/watch?v=3wYCh5nxyCI">Hardboiled with Chow Yun Fat</a>?)
+		</p>
 	</figcaption>
 </figure>
 <figure>
 	<img src="/images/harbin-final3.jpg" />
 	<figcaption>
-		A man pretending to be [Sun Wukong, Monkey King](http://en.wikipedia.org/wiki/Sun_wukong) at a park near the Songhua River
+		<p>
+		A man pretending to be <a href="http://en.wikipedia.org/wiki/Sun_wukong">Sun Wukong, Monkey King</a> at a park near the Songhua River
+		</p>
 	</figcaption>
 </figure>
 <figure>

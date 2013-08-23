@@ -3,7 +3,7 @@ layout: post
 categories: 
 - travel
 - china
-title: "Spring" Break
+title: Spring-ish Break
 date: 2012-04-16
 ---
 There are sandstorms in Harbin. Which means that you should probably keep any and all eating utensils by an open window. I can guarantee that they will stay clean. At least most of the time, which you know, is really all that matters. I mean, when you think of it, you're not even eating most of the time.

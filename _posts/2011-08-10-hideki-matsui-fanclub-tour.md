@@ -79,7 +79,9 @@ Ashley and I went down to Yokohama for an afternoon and walked by the water. We 
 <figure>
 	<img src="/images/hideki-matsui-fanclub-tour/18.jpg" />
 </figure>
-As we were leaving, we stopped and watched this Japanese pop band. They were super catchy! The only disappointing thing was that their two speakers had better clarity and range than anything Cornell has been able to provide. #middleofnowhereproblems Here's one of their songs: [Brand New Vibe](http://www.youtube.com/watch?v=hBKIO5mXfCw&feature=related)
+
+As we were leaving, we stopped and watched this Japanese pop band. They were super catchy! The only disappointing thing was that their two speakers had better clarity and range than anything Cornell has been able to provide. #middleofnowhereproblems Here's one of their songs: [Brand New Vibe](http://www.youtube.com/watch?v=Zw5Vq52ot-k)
+
 ##Seattle##
 After Tokyo I flew into Seattle and visited fellow Cornellians Michelle (who lives there) and Colin (who is making bank at Amazon).
 <figure>
