@@ -11,3 +11,6 @@ layout: layout
     {{ content }}
 </article>
 <a href="/"><img src="/images/logo.png" id="stamp"/></a>
+{% for item in page.js %}
+	<script src="/javascripts/{{item}}.js" type="text/javascript"></script>
+{% endfor %}
