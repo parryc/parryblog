@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Putting the Sex Back Into Traditional
+tinyTitle: Putting the Sex Back Into Trad-itional
 categories: 
 - humor
 ---

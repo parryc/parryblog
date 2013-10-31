@@ -1,7 +1,7 @@
 body {
 	font-size: 22px;
 	line-height: 1.4;
- 	font-family: "brandon_grotesqueregular","Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	font-family: "PT Serif","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p a, footer a {
 	color: rgb(111,176,235);
@@ -38,6 +38,11 @@ button:hover {
 	color: inherit;
 	border-color: inherit;
 	text-shadow: 1px 1px 0 black;
+}
+
+blockquote:before {
+	content: "❧ ";
+	
 }
 
 select {
@@ -211,6 +216,9 @@ select {
 	.date-small {
 		display: none;
 	}
+	.tiny-post-title, .tiny-page-title {
+		display: none;
+	}
 }
 
 @media(min-width: 640px){
@@ -218,6 +226,7 @@ select {
 		display: none;
 	}
 }
+
 
 @media(max-width: 980px){
 	.post-title {
@@ -241,17 +250,25 @@ select {
 }
 
 @media(max-width: 640px){
+	.category {
+		font-size: .75em;
+	}
 	.title-large {
 		display: none;
 	}
+
 	blockquote {
 		margin-right: 0;
 		margin-left: -15px;
 	}
 }
 
-@media(max-width: 500px){
+@media(max-width: 499px){
 	.date {
+		display: none;
+	}
+
+	.large-post-title, .large-page-title {
 		display: none;
 	}
 }

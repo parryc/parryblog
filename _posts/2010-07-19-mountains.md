@@ -4,6 +4,7 @@ categories:
 - travel
 - kazakhstan
 title: MOUNTAINS
+tinyTitle: MOUN-TAINS
 ---
 Almaty, Kazakhstan.
 

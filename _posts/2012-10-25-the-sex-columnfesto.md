@@ -3,6 +3,7 @@ layout: post
 categories: 
 - humor
 title: The Sex Columnfesto
+tinyTitle: The Sex Column-festo
 date: 2012-11-08
 ---
 Earlier last week, while in stacks … researching … for my column, I discovered a tattered paperback. It was old, but it felt like it was imbued with great power. I flipped it over and stumbled back in shock: I had found a copy of the fabled *Cummunist Manifesto*. All sex columnists have heard of this most holy of sex books, fabled to expound on everything from clever sex position puns to Sun style guidelines when talking about STIs. Unfortunately, most of it seems to be an amalgamation of drunken Tumblr posts, but there are a few gems that could help free us from the bourgeois, capitalist parkas that hide the sexy undergarments of collectivized society. 

@@ -4,6 +4,7 @@ categories:
 - travel
 - china
 title: Stay for the Compliments
+tinyTitle: Stay for the Comp-liments
 ---
 China is a land of many different things and what not. (My government and culture classes have been paying off, as you can tell) One thing thing they are full of, that on the surface you might not expect, is compliments. Case in point:
 <br/><br/>

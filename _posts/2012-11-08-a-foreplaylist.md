@@ -2,6 +2,7 @@
 layout: post
 categories: 
 - humor
+tinyTitle: A Foreplay-list
 title: A Foreplaylist
 date: 2012-11-08
 ---

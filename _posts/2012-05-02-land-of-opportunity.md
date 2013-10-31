@@ -4,6 +4,7 @@ categories:
 - travel
 - china
 title: Land of Opportunity
+tinyTitle: Land of Oppor-tunity
 date: 2012-05-02
 ---
 Every semester CET plans a rip-roaring adventure to some city other than Harbin, most likely in order to convince students that not all of China is cold.  The way they go about accomplishing this goal is actually quite clever: by going south. 12 hours south via train, to be precise.  Now you may be thinking "the title says land of opportunity, I was unaware NAME-OF-YOUR-COUNTRY (to appeal to a wider audience) was south of China."  And you would be right, unless you're from North Korea.  But you're not. (If you are, please comment otherwise).

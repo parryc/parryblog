@@ -12,7 +12,6 @@ I like Hungarian. Let's test your Hungarian. There'll be more to this page.... m
 
 <!-- more -->
 
-
 <div class="center">
 	<select id="person" class="wide whitespace-vert">
 		<option value="1sg">1st person singular</option>
@@ -33,7 +32,7 @@ I like Hungarian. Let's test your Hungarian. There'll be more to this page.... m
 	<br/>
 	<div class="inflect">
 		<input id="word" type="text" placeholder="Verb" value="ért" class="wide-half whitespace-vert"/>
-		<span id="answer">&nbsp;</span>
+		<span id="answer">Inflection</span>
 	</div>
 	<br/>
 	<button id="go">Inflect</button>
@@ -46,6 +45,6 @@ test of the emergency broadcast system
 
 adsfjal;ksdfjas;dlfjadls;kfjads;klfjasd;flkajsd
 
-<div class="margin-note">This is a margin note all about the random shit that's goin' on here in the thing</div>
+<blockquote>This is a margin note all about the random shit that's goin' on here in the thing</blockquote>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quibusdam, consequatur, earum officiis aliquid ducimus beatae soluta quas ab tempore quaerat consequuntur harum cumque iure error asperiores similique expedita ipsam!

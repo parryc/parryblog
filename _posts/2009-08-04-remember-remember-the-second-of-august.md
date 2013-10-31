@@ -4,8 +4,9 @@ categories:
 - travel
 - china
 title: Remember, Remember, the 2nd of August
+tinyTitle: Remember Remember the 2nd of August
 ---
-The Nationalist treason and plot. I know of no reason, why the Communist win Should ever be forgot. On many military emblems throughout China has 八二 (8/2), signifying the Communist “Independence Day.”
+The Nationalist treason and plot.  I know of no reason, why the Communist win Should ever be forgot. On many military emblems throughout China has 八二 (8/2), signifying the Communist “Independence Day.”
 
 Much of CCTV was filled with praise and glory and really bad Communist music for the defeat of the Nationalists 60 years ago.
 

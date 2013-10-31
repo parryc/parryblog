@@ -1,10 +1,17 @@
 ---
 layout: layout
 ---
-<h1 class="page-title">{{ page.title }}</h1>
+<h1 class="page-title large-page-title">{{ page.title }}</h1>
+<h1 class="page-title tiny-page-title">
+	{% if page.tinyTitle == "" or page.tinyTitle == nil %}
+		{{ page.title}}
+	{% else %}
+		{{ page.tinyTitle }}
+	{% endif %}
+</h1>
 <div class="category-list">
 {% for cat in page.categories %}
-  <a href="/categories/{{ cat }}" class="category">{{ cat }}</a>
+  <a href="/categories/{{ cat | replace:' ','-'}}" class="category">{{ cat }}</a>
 {% endfor %}
 </div>
 <article>
