@@ -9,6 +9,7 @@ p a, footer a {
 article {
 	width: 75%;
 	margin: 0 auto;
+	margin-bottom: 75px;
 }
 
 aside {
@@ -270,6 +271,18 @@ select {
 
 	.large-post-title, .large-page-title {
 		display: none;
+	}
+
+	.inflect {
+		width: 250px;
+	}
+
+	.wide {
+		width: 240px;
+	}
+
+	select {
+		font-size: .85em;
 	}
 }
 

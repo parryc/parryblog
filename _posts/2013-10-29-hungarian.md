@@ -31,7 +31,7 @@ I like Hungarian. Let's test your Hungarian. There'll be more to this page.... m
 	</select>
 	<br/>
 	<div class="inflect">
-		<input id="word" type="text" placeholder="Verb" value="ért" class="wide-half whitespace-vert"/>
+		<input id="word" type="text" placeholder="Verb" value="ért" class="wide whitespace-vert"/>
 		<span id="answer">Inflection</span>
 	</div>
 	<br/>

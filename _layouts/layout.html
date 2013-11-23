@@ -15,6 +15,25 @@
     {{ content }}
   </body>
   <script type="text/javascript">
+      var colors = ["#FFFAF1","rgb(111,176,235)","#222222"],
+          size = 25,
+          yStart = window.innerHeight/size;
+          
+      for (var x = window.innerWidth/size+1; x >= 0; x--){    
+        for (var y = yStart+1; y >= yStart-4; y--) {
+          var square = document.createElement('div');
+          square.style.height = "25px";
+          square.style.width = "25px";
+          square.style.position = "fixed";
+          square.style.top = (size*y)+"px";
+          square.style.left = (size*(x-1))+"px";
+          square.style['z-index'] = 2;
+          square.style.opacity = 1-(yStart-y)/4;
+
+          square.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+          document.getElementsByTagName('body')[0].appendChild(square);
+        } 
+      }
   // if(window.location.pathname.split('/').length == 3) {
   //   postStats = document.getElementById('stats-toggle');
   //   postStats.onclick = function() {
