@@ -12,19 +12,18 @@
     <title>parryblog | {{ page.title }}</title>
   </head>
   <body>
-    <script type="text/javascript">
-
-    </script>
     <div id="front-page">
       <article>
-        <div class="dictionary-entry">
           <h1>Parry (<em>n</em>)</h1>
           A twenty-three year old Minnesotan, commonly found in Berkeley. <br/>
           Known to <a href="/beer">drink beer</a>, <a class="show-writing" href="/categories/languages">learn languages</a>, <a href="http://www.github.com/parryc">program</a>, take pictures, <a id="writes" href="/#writing">write</a>, and <a class="show-writing" href="/categories/travel">travel</a>.
           <br/>
-          <hr>
-          &#8275; once fought a bear to a draw. A bear once drew &#8275;. 
-
+          <br/>
+          <em><span id="example-sentence">&#8275; once fought a bear to a draw. </span></em>
+          <br/>
+          <div class="center">
+            <img id="front-image" src="../images/face-black-and-white.png"/>
+          </div>
       </article>
     </div>
     <div id="all-content">
@@ -34,23 +33,39 @@
   <script type="text/javascript">
       var colors = ["#FFFAF1","rgb(111,176,235)","#222222"],
           size = 25,
-          yStart = window.innerHeight/size;
+          yStart = window.innerHeight/size,
+          dictSentences = [
+            "&#8275; once fought a bear to a draw. ",
+            "&#8275; is never gonna give you up. ",
+            "Once upon a midnight dreary, &#8275; pondered weak and weary.",
+            "&#8275; spent 6 months in a leaky boat",
+            "Danger, &#8275;, danger!"
+          ],
+          generateBlocks = function() {
+            var old = document.getElementsByClassName('footer-block');
+            for(i=old.length-1;i>=0; --i) {
+              old[i].parentNode.removeChild(old[i]);
+            }
+            for (var x = window.innerWidth/size+1; x >= 0; x--){    
+              for (var y = yStart+1; y >= yStart-4; y--) {
+                var square = document.createElement('div');
+                square.className = "footer-block";
+                square.style.height = "25px";
+                square.style.width = "25px";
+                square.style.position = "fixed";
+                square.style.top = (size*y)+"px";
+                square.style.left = (size*(x-1))+"px";
+                square.style['z-index'] = 2;
+                square.style.opacity = 1-(yStart-y)/4;
 
-      for (var x = window.innerWidth/size+1; x >= 0; x--){    
-        for (var y = yStart+1; y >= yStart-4; y--) {
-          var square = document.createElement('div');
-          square.style.height = "25px";
-          square.style.width = "25px";
-          square.style.position = "fixed";
-          square.style.top = (size*y)+"px";
-          square.style.left = (size*(x-1))+"px";
-          square.style['z-index'] = 2;
-          square.style.opacity = 1-(yStart-y)/4;
+                square.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                document.getElementsByTagName('body')[0].appendChild(square);
+              } 
+            }
+          };
 
-          square.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-          document.getElementsByTagName('body')[0].appendChild(square);
-        } 
-      }
+      sentence = document.getElementById('example-sentence');
+      sentence.innerHTML = dictSentences[Math.floor(Math.random() * dictSentences.length)]; 
       // Hide all posts.
       posts = document.getElementById('all-content');
       if(posts.style.display != 'none') {
@@ -67,6 +82,12 @@
         document.getElementById('front-page').style.display = 'none';
         document.getElementById('all-content').style.display = 'block';
       }
+
+      window.onresize = function() {
+        yStart = window.innerHeight/size;
+        generateBlocks();
+      }
+      generateBlocks();
 
   // if(window.location.pathname.split('/').length == 3) {
   //   postStats = document.getElementById('stats-toggle');

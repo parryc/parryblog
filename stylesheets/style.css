@@ -17,7 +17,7 @@ aside {
 	z-index: 10;
 	top: 0;
 	left: 0;
-	width: 30%;
+	width: 33%;
 	height: 100%;
 	max-width: 500px;
 }
@@ -90,9 +90,13 @@ select {
 	word-break: break-all;
 }
 
+.center {
+	margin: 0 auto;
+}
+
 .content {
 	position: absolute;
-	left: 30%;
+	left: 33%;
 	margin-left: 20px;
 	width: 60%;
 }
@@ -210,7 +214,11 @@ select {
 }
 
 #front-page {
-	margin-top: 100px;
+	margin-top: 50px;
+}
+
+#front-image {
+	padding-top: 50px;
 }
 
 #logo {
@@ -281,12 +289,20 @@ select {
 }
 
 @media(max-width: 499px){
-	.date {
+	article {
+		margin-bottom: 0;
+	}
+
+	select {
+		font-size: .85em;
+	}
+
+	.large-post-title, .large-page-title, .footer-block, .date {
 		display: none;
 	}
 
-	.large-post-title, .large-page-title {
-		display: none;
+	.category {
+		font-size: .65em;
 	}
 
 	.inflect {
@@ -297,8 +313,13 @@ select {
 		width: 240px;
 	}
 
-	select {
-		font-size: .85em;
+	#front-page {
+		margin-top: 0;
+		overflow: hidden;
+	}
+
+	#front-image {
+		padding-top: 15px;
 	}
 }
 
