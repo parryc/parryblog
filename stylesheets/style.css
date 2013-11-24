@@ -136,6 +136,18 @@ select {
 	text-align: left;
 }
 
+#front-page a {
+	padding-left: 3px;
+	padding-right: 3px;
+	color: rgb(111,176,235);
+	border-bottom: 3px solid black;
+}
+
+#front-page a:hover {
+	color: white;
+	background: black;
+}
+
 .page-title {
 	width: 75%;
 	margin: 0 auto 1% auto;
@@ -193,6 +205,14 @@ select {
 	width: 150px;
 }
 
+#answer {
+	padding: 10px;
+}
+
+#front-page {
+	margin-top: 100px;
+}
+
 #logo {
 	margin: 0 auto;
 	display: block;
@@ -207,10 +227,6 @@ select {
 
 #stats {
 	display: none;
-}
-
-#answer {
-	padding: 10px;
 }
 
 @media(min-width: 500px){

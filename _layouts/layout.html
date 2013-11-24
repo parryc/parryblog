@@ -12,13 +12,30 @@
     <title>parryblog | {{ page.title }}</title>
   </head>
   <body>
-    {{ content }}
+    <script type="text/javascript">
+
+    </script>
+    <div id="front-page">
+      <article>
+        <div class="dictionary-entry">
+          <h1>Parry (<em>n</em>)</h1>
+          A twenty-three year old Minnesotan, commonly found in Berkeley. <br/>
+          Known to <a href="/beer">drink beer</a>, <a class="show-writing" href="/categories/languages">learn languages</a>, <a href="http://www.github.com/parryc">program</a>, take pictures, <a id="writes" href="/#writing">write</a>, and <a class="show-writing" href="/categories/travel">travel</a>.
+          <br/>
+          <hr>
+          &#8275; once fought a bear to a draw. A bear once drew &#8275;. 
+
+      </article>
+    </div>
+    <div id="all-content">
+      {{ content }}
+    </div>
   </body>
   <script type="text/javascript">
       var colors = ["#FFFAF1","rgb(111,176,235)","#222222"],
           size = 25,
           yStart = window.innerHeight/size;
-          
+
       for (var x = window.innerWidth/size+1; x >= 0; x--){    
         for (var y = yStart+1; y >= yStart-4; y--) {
           var square = document.createElement('div');
@@ -34,12 +51,29 @@
           document.getElementsByTagName('body')[0].appendChild(square);
         } 
       }
+      // Hide all posts.
+      posts = document.getElementById('all-content');
+      if(posts.style.display != 'none') {
+        posts.style.display = 'none';
+      }
+
+      writes = document.getElementById('writes');
+      writes.onclick = function() {
+        document.getElementById('front-page').style.display = 'none';
+        document.getElementById('all-content').style.display = 'block';
+      }
+
+      if(window.location.pathname !== '/' || window.location.hash === '#writing') {
+        document.getElementById('front-page').style.display = 'none';
+        document.getElementById('all-content').style.display = 'block';
+      }
+
   // if(window.location.pathname.split('/').length == 3) {
   //   postStats = document.getElementById('stats-toggle');
   //   postStats.onclick = function() {
-  //     stats = document.getElementById('stats');
-  //     if(stats.style.display != 'none' && stats.style.display) {
-  //       stats.style.display = 'none';
+      // stats = document.getElementById('stats');
+      // if(stats.style.display != 'none' && stats.style.display) {
+      //   stats.style.display = 'none';
   //       postStats.innerHTML = 'Show Stats';
   //     } else {
   //       stats.style.display = 'block';
