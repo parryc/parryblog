@@ -8,7 +8,7 @@ title: home
   {% for cat in site.categories  %}
     <a href="/categories/{{ cat[0] | replace:' ','-'}}" class="category">{{ cat[0] }}</a>
   {% endfor %}
-  <h4 style="position: absolute; bottom: 15px"><a href="/about">About</a></h4>
+  <h4 id="about"><a href="/about">About</a></h4>
 </aside>
 <section class="content">
   {% for post in site.posts %}
