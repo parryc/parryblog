@@ -4,9 +4,9 @@ title: Planes, Trains, and Sex on Wheels
 categories: 
 - humor
 ---
-There is a problem with today’s sexually active youth. We aren’t adventurous enough. I don’t mean this in the Kama Sutra, let's-try -having-sex-while-upside-down-balancing -on-one-hand sort of adventurous, but rather the let’s have sex on top of a moving train sort of adventurous.
+There is a problem with today’s sexually active youth. We aren’t adventurous enough. I don’t mean this in the Kama Sutra, let's-try-having-sex-while-upside-down-balancing-on-one-hand sort of adventurous, but rather the let’s have sex on top of a moving train sort of adventurous.
 
-Now some of you might be thinking: “But Jimothy! You haven’t even done that and you've done everything.” That’s where you'd be wrong. Because I have, and the experience derailed all of my expectations on what sex could be like. However, it took a lot of preparation and no small amount of luck. As a result, I am legally obligated to not recommend that readers try it, even though I totally do.
+Now some of you might be thinking: “But Jimothy! You haven’t even done that and you’ve done everything.” That’s where you'd be wrong. Because I have, and the experience derailed all of my expectations on what sex could be like. However, it took a lot of preparation and no small amount of luck. As a result, I am legally obligated to not recommend that readers try it, even though I totally do.
 
 However, I know that not all of you have access to trains, so I’ve compiled a list, in order of difficulty, of vehicles that you should probably try to have sex in or on. If I haven’t listed your preposition of choice it's because either a) it’s not exciting or b) I can’t comprehend how you could actually do it.
 <!-- more -->
@@ -27,11 +27,11 @@ Use the natural bouncing motion to your advantage.  Going bareback is hard, but 
 
 ###Airplane (In: Intermediate, On: Master)###
 
-Pro tip: You cannot get kicked off of a moving airplane, so the worst the flight attendants  could do is less-than- politely ask you  to return to your seat.  Unless you’re on top of the moving airplane, but at that point, you probably have other problems.   
+Pro tip: You cannot get kicked off of a moving airplane, so the worst the flight attendants could do is less-than-politely ask you to return to your seat. Unless you’re on top of the moving airplane, but at that point, you probably have other problems.
 
 ###Canoe (In: Master, On: The One)###
 
-I have a hard enough time sitting in a canoe worrying about not tipping over and being devoured by the Kraken, let alone copulating in one (Copulation Canoe is now the name of my Sea Level Club canoe charter service). Thus, anyone who can do the dirty in one gets my respect.  Now, having sex on a canoe ... That is another matter entirely. The only way I can imagine this working is having two couples on either edge of the canoe humping at the same time in order to keep the canoe from tipping.  
+I have a hard enough time sitting in a canoe worrying about not tipping over and being devoured by the Kraken, let alone copulating in one (Copulation Canoe is now the name of my Sea Level Club canoe charter service). Thus, anyone who can do the dirty in one gets my respect.  Now, having sex on a canoe ... That is another matter entirely. The only way I can imagine this working is having two couples on either edge of the canoe humping at the same time in order to keep the canoe from tipping.
 
 If you’re interested in either of the above canoodling scenarios, drop me a line.  Someone out there has got to have a lake fetish.
 
