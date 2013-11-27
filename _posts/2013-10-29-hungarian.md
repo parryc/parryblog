@@ -8,9 +8,11 @@ date: 2013-10-29
 js: [aistritheoir, analyzer, hungarian, hungarian-page]
 ---
 
-I like Hungarian. Let's test your Hungarian. There'll be more to this page.... maybe!
+Hungarian is a pretty cool language. It's aggluntinating, which means you add person, tense, and all other sorts of markers directly to the stem of the verb. I'll be using this page, and others, to chronicle my quest to learn Hungarian. Below, you'll find two tools I've created to help me on my way: an inflector and an analyzer.  The inflector takes the root form (also called a lemma or dictionary form) of a verb and inflects it correctly. It assumes the word you're inputting is Hungarian and applies rules according to the word's character. The inflector does the opposite - put in a word you think is a Hungarian verb, click inflect, and hope it gives you something useful. Because of certain problems in naïvely doing morphological inflections, there will occasionally be ambiguous results.
 
 <!-- more -->
+
+##The Inflector##
 
 <div class="center">
 	<select id="person" class="wide whitespace-vert">
@@ -34,26 +36,19 @@ I like Hungarian. Let's test your Hungarian. There'll be more to this page.... m
 		<input id="word" type="text" placeholder="Verb" value="ért" class="wide whitespace-vert"/>
 		<span id="answer">Inflection</span>
 	</div>
-	<br/>
 	<button id="inflect">Inflect</button>
 </div>
+
+##The Analyzer##
 
 <div class="center">
 	<div class="analyze">
 		<input id="unknown" type="text" placeholder="Verb" value="főzöl" class="wide whitespace-vert"/>
 		<br/>
-		<span id="analysis"></span>
+		<span id="analysis">Analysis</span>
 	</div>
 	<button id="analyze">Analyze</button>
 </div>
 
 
-test of the emergency broadcast system
-
-<h1>PIE</h1>
-
-adsfjal;ksdfjas;dlfjadls;kfjads;klfjasd;flkajsd
-
-<blockquote>This is a margin note all about the random shit that's goin' on here in the thing</blockquote>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quibusdam, consequatur, earum officiis aliquid ducimus beatae soluta quas ab tempore quaerat consequuntur harum cumque iure error asperiores similique expedita ipsam!
+<blockquote>With insurmountable help from <em>Hungarian: an Essential Grammar</em> by Carol H. Rounds</blockquote>
