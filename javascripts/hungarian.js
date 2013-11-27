@@ -1,10 +1,13 @@
 (function(window){
   window.hungarian = new Language("hungarian");
 
+  hungarian = new Language("hungarian");
+
   hw = hungarian.words;
 
   hungarian.orthography({
     "vowels": {
+      "all": "áóúőűéíaoueiöü",
       "back": "aáoóuú",
       "front": {
         "rounded": "öőüű",
@@ -18,17 +21,25 @@
     "palatals": "jl(ly)n(ny)r"
   });
 
-  // hungarian.word("ért", "VERB");
-  // ert = hungarian.words.ért;
-
-  // hungarian.word("tanít", "VERB");
-  // tanit = hungarian.words.tanít;
-
-  // hungarian.word("játszik","VERB");
-  // jatszik = hungarian.words.játszik;
-
-  // hungarian.word("fordít","VERB");
-  // fordit = hungarian.words.fordít;
+  hungarian.inflection({
+    "word":"van",
+    "VERB":{
+      "1sg,1pl,2pl":"vagy+",
+      "2sg":"vagy",
+      "3sg":"van",
+      "3pl":"van+"
+    },
+    "VERB-PST":{
+      "1sg,3sg,1pl,2pl,3pl":"vol+",
+      "2sg":"voltál"
+    },
+    "VERB-SUBJ":{
+      "1sg,2sg,3sg,1pl,2pl,3pl":"legy+"
+    },
+    "VERB-COND":{
+      "1sg,2sg,3sg,1pl,2pl,3pl":"vol+"
+    }
+  });
 
   hungarian.inflection({
     "schema": ["back","front.unrounded","front.rounded"],
@@ -99,6 +110,7 @@
     "schema": ["back","front"],
     "name": "VERB-PST",
     "markers": ["PST"],
+    "preprocess": {"for":"all","do":"remove ik"},
     "1sg": {
       "form": "+Vm",
       "replacements": {"V": ["a","e"]}
@@ -298,4 +310,43 @@
       "replacements":{}
     }
   });
+
+  /*************************
+    Derivational Endings
+   *************************/
+  hungarian.marker({
+    "schema": ["back", "front.unrounded", "front.rounded"],
+    "name": "Frequentive",
+    "order": 0,
+    "only ('consonants')'vowels.all''consonants'":{
+      "form":"+AgBt",
+      "replacements":{
+        "A": ["o","e","ö"],
+        "B": ["a","e","e"]
+      }
+    },
+    "default":{
+      "form":"+gVt",
+      "replacements":{"V":["a","e","e"]}
+    }
+  }, true);
+
+  hungarian.marker({
+    "schema": ["back","front"],
+    "name": "Potential",
+    "order": 1,
+    "default":{
+      "form":"+hVt",
+      "replacements":{"V":["a","e"]}
+    }
+  }, true);
+
+  //The Hungarian causative is not like the English causative, and is rarely used generally - mostly in well established verb pairs.
+  //http://forum.wordreference.com/showthread.php?t=2148708
+  //It also saves me the trouble of trying to figure out how to do syllable structure... 
+
+
+  hungarian.phraseStructure("S","VERB");
+
+  window.analyzer = new Analyzer(hungarian);
 })(window);

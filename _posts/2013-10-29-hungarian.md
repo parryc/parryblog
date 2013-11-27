@@ -5,7 +5,7 @@ categories:
 - languages
 title: Hungarian
 date: 2013-10-29
-js: [aistritheoir, hungarian, hungarian-page]
+js: [aistritheoir, analyzer, hungarian, hungarian-page]
 ---
 
 I like Hungarian. Let's test your Hungarian. There'll be more to this page.... maybe!
@@ -35,7 +35,16 @@ I like Hungarian. Let's test your Hungarian. There'll be more to this page.... m
 		<span id="answer">Inflection</span>
 	</div>
 	<br/>
-	<button id="go">Inflect</button>
+	<button id="inflect">Inflect</button>
+</div>
+
+<div class="center">
+	<div class="analyze">
+		<input id="unknown" type="text" placeholder="Verb" value="főzöl" class="wide whitespace-vert"/>
+		<br/>
+		<span id="analysis"></span>
+	</div>
+	<button id="analyze">Analyze</button>
 </div>
 
 

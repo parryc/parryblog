@@ -17,12 +17,26 @@ Language = (function() {
 
   Language.prototype.inflections = {};
 
+  Language.prototype.inflectionsRaw = {};
+
+  Language.prototype.inflectionExceptions = {};
+
+  Language.prototype.exceptionMap = {};
+
   Language.prototype.markers = {};
+
+  Language.prototype.markersRaw = {};
+
+  Language.prototype.derivationsRaw = [];
 
   Language.prototype.rules = {};
 
   Language.prototype.word = function(word, pos) {
     return this.words[word] = new Word(word, pos, this.orthographies[this.defaultOrthography]);
+  };
+
+  Language.prototype.tempWord = function(word, pos) {
+    return new Word(word, pos, this.orthographies[this.defaultOrthography]);
   };
 
   Language.prototype.orthography = function(orthography) {
@@ -32,7 +46,40 @@ Language = (function() {
   };
 
   Language.prototype.inflection = function(inflection) {
-    return this.inflections[inflection.name] = new Inflection(inflection, false);
+    var group, groups, person, personList, persons, root, shortTense, tense, verboseRoots, _i, _len;
+    if ((inflection.word != null)) {
+      persons = ['1sg', '2sg', '3sg', '1pl', '2pl', '3pl'];
+      for (tense in inflection) {
+        groups = inflection[tense];
+        if (!(tense !== 'word')) {
+          continue;
+        }
+        verboseRoots = {};
+        for (group in groups) {
+          root = inflection[tense][group];
+          shortTense = tense.replace(/VERB-?/, "");
+          this.exceptionMap[root + '-' + shortTense] = {
+            'root': inflection.word,
+            'tense': shortTense,
+            'person': group
+          };
+          if (group === "all") {
+            personList = persons;
+          } else {
+            personList = group.split(',');
+          }
+          for (_i = 0, _len = personList.length; _i < _len; _i++) {
+            person = personList[_i];
+            verboseRoots[person] = root;
+          }
+        }
+        inflection[tense] = verboseRoots;
+      }
+      return this.inflectionExceptions[inflection.word] = inflection;
+    } else {
+      this.inflectionsRaw[inflection.name] = inflection;
+      return this.inflections[inflection.name] = new Inflection(inflection, false);
+    }
   };
 
   Language.prototype.copyInflection = function(inflection, newName, overwrite) {
@@ -49,22 +96,41 @@ Language = (function() {
     return _results;
   };
 
-  Language.prototype.inflect = function(word, form, additional) {
-    var fullInflection, inflection, marker, markerList, _i, _len, _ref;
-    if ((additional != null) && additional !== "") {
-      fullInflection = word.pos + '-' + additional;
+  Language.prototype.inflect = function(word, form, tense, derivations) {
+    var derivation, derivationList, exception, fullException, fullInflection, inflection, marker, markerList, potentialException, _i, _j, _len, _len1, _ref;
+    exception = false;
+    fullException = false;
+    if ((tense != null) && tense !== "") {
+      fullInflection = word.pos + '-' + tense;
     } else {
       fullInflection = word.pos;
     }
     inflection = this.inflections[fullInflection];
+    potentialException = this.inflectionExceptions[word.lemma];
+    if (potentialException != null) {
+      word = this.tempWord(potentialException[fullInflection][form], word.pos);
+      if (word.lemma.slice(-1) !== '+') {
+        word.exception = true;
+      } else {
+        word.lemma = word.lemma.replace("+", "");
+      }
+    }
     if (inflection) {
       markerList = [];
-      if (inflection.markers != null) {
+      derivationList = [];
+      if ((inflection.markers != null) && !word.exception) {
         _ref = inflection.markers;
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           marker = _ref[_i];
           markerList.push(this.markers[marker]);
         }
+      }
+      if (derivations != null) {
+        for (_j = 0, _len1 = derivations.length; _j < _len1; _j++) {
+          derivation = derivations[_j];
+          derivationList.push(this.markers[derivation]);
+        }
+        markerList = derivationList.concat(markerList);
       }
       return inflection.inflect(word, form, markerList);
     } else {
@@ -72,7 +138,11 @@ Language = (function() {
     }
   };
 
-  Language.prototype.marker = function(marker) {
+  Language.prototype.marker = function(marker, isDerivation) {
+    this.markersRaw[marker.name] = marker;
+    if (isDerivation) {
+      this.derivationsRaw[marker.order] = marker;
+    }
     return this.markers[marker.name] = new Marker(marker);
   };
 
@@ -260,10 +330,8 @@ Inflection = (function() {
     var condition, inflection, inflector, markData, marker, marks, match, re, root, trimOff, _i, _len;
     inflector = "default";
     root = word.lemma;
-    if (this.preprocess) {
-      if (this.preprocess["for"].indexOf(form) !== -1 || this.preprocess["for"] === 'all') {
-        root = this._assimilate(this.preprocess["do"], root);
-      }
+    if (this.preprocess && (this.preprocess["for"].indexOf(form) !== -1 || this.preprocess["for"] === 'all')) {
+      root = this._assimilate(this.preprocess["do"], root);
     }
     for (condition in this[form]) {
       if (this._isDeleter(condition)) {
@@ -290,8 +358,10 @@ Inflection = (function() {
         root = root.replace(markData.replaceThis, markData.withThis);
       }
     }
-    inflection = this[form][inflector](word);
-    root = this._combine(root, inflection);
+    if (!word.exception) {
+      inflection = this[form][inflector](word);
+      root = this._combine(root, inflection);
+    }
     if (this.coverb != null) {
       root = this._combine(root, this.coverb);
     }
@@ -321,9 +391,18 @@ Inflection = (function() {
   };
 
   Inflection.prototype._parseCondition = function(condition) {
-    var exceptions;
+    var exceptions, option, optionals, restriction, _i, _len;
     if (this._isDeleter(condition)) {
       return condition + '$';
+    }
+    restriction = condition.match(/only\s(.*)/i);
+    if (restriction != null) {
+      restriction = restriction.pop();
+      optionals = restriction.match(/\([^()]*\)/gi);
+      for (_i = 0, _len = optionals.length; _i < _len; _i++) {
+        option = optionals[_i];
+        condition = "^" + restriction.replace(option, option.substring(1, option.length - 1) + "?") + "$";
+      }
     }
     condition = condition.replace(/after(.*)/gi, "($1)$");
     exceptions = condition.match(/exceptions\[(.*)\]/i);
