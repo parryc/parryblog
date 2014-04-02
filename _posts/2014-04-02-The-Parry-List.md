@@ -23,12 +23,14 @@ Without further ado...
 
 
 ##Basic Grammar##
-* I [verb] (adverbially)
-* I cannot [verb] (adverbially)
-* I don't [verb] (adverbially)
-* I [verb] (object)
-* I [verb] (indirect object) (object)
+* I am [noun/adjective].
+* I [verb] [adverbially].
+* I cannot [verb] [adverbially].
+* I don't [verb] [adverbially].
+* I [verb] [object].
+* I [verb] [indirect object] [object].
 * This/That is my [noun].
+* My [noun] is [adjective].
 
 ##Questions##
 * Why do I [verb]?
