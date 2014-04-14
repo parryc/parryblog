@@ -15,11 +15,11 @@ Without further ado...
 #The List#
 
 ##I'm Stupid, Help Me##
-* I'm learning [language].
+* I'm learning _language_.
 * I don't understand, sorry.
 * Can you say that slower?
-* Will you speak in [language], please?
-* Will you practice [language] with me, please?
+* Will you speak in _language_, please?
+* Will you practice _language_ with me, please?
 
 
 ##Basic Grammar##
@@ -40,3 +40,11 @@ Without further ado...
 * When can I _x_?
 * Where is _x_?
 * Where can I _x_?
+
+##Restaurants##
+Restaurants are definitely one of the more difficult places to go when traveling. Not only is there a variety of cultural norms at play, but there sheer variety of restaurants makes predicting what someone might say difficult as well. The best bet is to try to pick out a few key verbs/phrases that indicate what kind of question is being asked. For example, in a fancy restaurant you might hear: "Good evening sir and madame, how many will be dining with us this evening?" You really only need to recognize "how many" to answer correctly.
+* ... how many ... ?
+* Do you have reservations? Yes, we have reservations.
+* What would you like to _order_? What would you like to _eat_? What would you like to _drink_?
+* I would like _x_ to drink/eat?
+* Check please.
