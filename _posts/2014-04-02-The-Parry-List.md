@@ -11,7 +11,7 @@ The [Swadesh List](http://en.wikipedia.org/wiki/Swadesh_list) is a list of base 
 The end goal is to have a list of sentences that include common words that are hard to ask about (e.g. how, why, when), common sentence structures (_I would like..._), how to describe things (_I want the thing you put the water in_), and most importantly, how to tell people that you are still a learner. With these sentences, you should also be able to get an introduction to the basic grammar you need to make sentences on the fly. Sure, it'd be cool if you knew how and when to use the vocative case in Scottish Gaelic, but it's really not that important relative to being able to order _uisge beatha_.
 
 Without further ado...
-
+<!-- more -->
 #The List#
 
 ##I'm Stupid, Help Me##
@@ -23,20 +23,20 @@ Without further ado...
 
 
 ##Basic Grammar##
-* I am [noun/adjective].
-* I [verb] [adverbially].
-* I cannot [verb] [adverbially].
-* I don't [verb] [adverbially].
-* I [verb] [object].
-* I [verb] [indirect object] [object].
-* This/That is my [noun].
-* My [noun] is [adjective].
+* I am _noun/adjective_.
+* I _verb_ _adverbially_.
+* I cannot _verb_ _adverbially_.
+* I don't _verb_ _adverbially_.
+* I _verb_ _object_.
+* I _verb_ _indirect object_ _object_.
+* This/That is my _noun_.
+* My _noun_ is _adjective_.
 
 ##Questions##
-* Why do I [verb]?
-* Why can't I [verb]?
-* How do you [verb]?
-* When is [x]?
-* When can I [x]?
-* Where is [x]?
-* Where can I [x]?
+* Why do I _verb_?
+* Why can't I _verb_?
+* How do you _verb_?
+* When is _x_?
+* When can I _x_?
+* Where is _x_?
+* Where can I _x_?
