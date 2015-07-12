@@ -3,7 +3,7 @@ layout: post
 categories:
 - travel
 - kazakhstan
-title: Putting the ugy in "Cheers!"
+title: Putting the ugh in "Cheers!"
 ---
 Some of you may know me as a relatively straight edge Cornellian, some of you may know me as a raging alcoholic (Can I get a shout out to Blackout in Beijing '94!!). Knowing this, away from home and away from drinking age limits, my drink of choice is milk tea. Although, apparently horse milk is mildly intoxicating - so who knows, tea could become the next college cheap intoxicant...
 
